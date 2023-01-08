@@ -32,9 +32,14 @@ Data
 Image (подключаем через dist так как в src не будет работать)
 
 Не правильно:    src/assets/img/Frame1728x1117.jpg
-Правильно:       /assets/img/Frame1728x1117.jpg
+Правильно:       assets/img/Frame1728x1117.jpg
 
 JS
 
-  /assets/js/main.min.js - Подключение джавы
+  assets/js/main.min.js - Подключение джавы
+
+
+Для нового проекта 
+копируем ( src и gulpfile.js и package.json )
+устанавливаем все новые даные ( npm i )
   
